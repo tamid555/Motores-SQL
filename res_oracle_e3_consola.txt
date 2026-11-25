@@ -1,0 +1,12 @@
+=== EXPERIMENTO E3: ORACLE (salida de consola, ejecucion interrumpida) ===
+Concurrencia: 10 usuarios
+  Corrida 1: TPS = 1752.46 | Latencia p95 = 8.369 ms
+  Corrida 2: TPS = 2033.75 | Latencia p95 = 7.241 ms
+  Corrida 3: TPS = 1398.16 | Latencia p95 = 12.086 ms
+Concurrencia: 50 usuarios
+  Corrida 1: TPS = 1112.79 | Latencia p95 = 107.518 ms
+  Corrida 2: TPS = 1600.04 | Latencia p95 = 67.100 ms
+  Corrida 3: TPS = 1656.90 | Latencia p95 = 52.336 ms
+Concurrencia: 100 usuarios
+  Corrida 1: TPS = 1021.87 | Latencia p95 = 407.434 ms
+  Corrida 2: interrumpida con DPY-6000 (ORA-12516, listener rechazo la conexion)
